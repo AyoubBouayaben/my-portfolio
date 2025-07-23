@@ -23,7 +23,7 @@ const greeting = {
   username: "Ayoub",
   title: "Hi all, I'm Ayoub Bouayaben",
   subTitle: emoji(
-    "I’m a research associate specialized in flight delay prediction using machine learning, quantile regression, and SHAP explainability. I offer predictive services for airlines and aviation companies.""
+    "I’m a research associate specialized in flight delay prediction using machine learning, quantile regression, and SHAP explainability. I offer predictive services for airlines and aviation companies."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
