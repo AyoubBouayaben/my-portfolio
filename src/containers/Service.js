@@ -4,7 +4,7 @@ import "./Service.scss"; // We'll add styles after
 const Service = () => {
   return (
     <div className="main service-section" id="service">
-      <h1 className="service-title">Services I Offer</h1>
+      <h1 className="service-title">Services</h1>
       <p className="service-subtitle">
         I provide machine learning-based prediction services for airlines and aviation partners.
       </p>
