@@ -3,7 +3,7 @@ import { contactInfo } from "../../portfolio";  // adjust path if needed
 
 export default function Contact() {
   return (
-    <div style={{ padding: "2rem", fontFamily: "Segoe UI, sans-serif", color: "#fff" }}>
+   <div id="contact" style={{ padding: "2rem", fontFamily: "Segoe UI, sans-serif", color: "#fff" }}>
       <h1>{contactInfo.title}</h1>
       <p style={{ maxWidth: "600px" }}>
         {contactInfo.subtitle}
