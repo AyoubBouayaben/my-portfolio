@@ -56,7 +56,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             <img
               alt="Ayoub Bouayaben"
-              src={require("../../assets/images/ayoub.jpg")}
+              src={require("../../assets/images/1709244272268.jpg")}
               style={{
                 width: "100%",
                 maxWidth: "300px",
