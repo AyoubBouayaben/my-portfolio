@@ -21,7 +21,7 @@ import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 import Contact from "./Contact";
-
+import Service from "./Service";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -66,6 +66,7 @@ const Main = () => {
             <Twitter />
             <Podcast />
             <Profile />
+            <Service/>
             <Contact />
             <Footer />
             <ScrollToTopButton />
