@@ -27,7 +27,7 @@ export default function Contact() {
             style={{
               width: "100%",
               padding: "0.6rem",
-              fontSize: "1rem !important",
+              fontSize: "2rem",
               borderRadius: "5px",
               border: "1px solid #ccc",
             }}
@@ -43,7 +43,7 @@ export default function Contact() {
             style={{
               width: "100%",
               padding: "0.6rem",
-              fontSize: "1rem !important",
+              fontSize: "2rem",
               borderRadius: "5px",
               border: "1px solid #ccc",
             }}
@@ -59,7 +59,7 @@ export default function Contact() {
             style={{
               width: "100%",
               padding: "0.6rem",
-              fontSize: "1rem !important",
+              fontSize: "2rem",
               borderRadius: "5px",
               border: "1px solid #ccc",
             }}
