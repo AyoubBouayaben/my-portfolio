@@ -21,7 +21,7 @@ import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 import Contact from "./Contact";
-import Service from "./Service";+
+import Service from "./Service";
 
 
 const Main = () => {
