@@ -385,7 +385,7 @@ export {
   number: "",
   email_address: "Ayoub.bouayaben@gmail.com",
   display: false
-}; /*}
+}; */}
 
 // Twitter Section
 
