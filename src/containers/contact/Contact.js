@@ -1,15 +1,16 @@
 import React from "react";
+import { contactInfo } from "../../portfolio";  // adjust path if needed
 
 export default function Contact() {
   return (
     <div style={{ padding: "2rem", fontFamily: "Segoe UI, sans-serif", color: "#fff" }}>
-      <h1>Contact Me</h1>
+      <h1>{contactInfo.title}</h1>
       <p style={{ maxWidth: "600px" }}>
-        If you’d like to test the flight delay prediction API or ask about my services, feel free to reach out.
+        {contactInfo.subtitle}
       </p>
 
       <form
-        action="https://formspree.io/f/mpwlpbda"
+        action={contactInfo.formLink}
         method="POST"
         style={{
           display: "flex",
