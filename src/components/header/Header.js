@@ -23,6 +23,7 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+  const viewService = serviceSection.display;
 
   return (
     <Headroom>
@@ -74,6 +75,11 @@ function Header() {
           {viewResume && (
             <li>
               <a href="#resume">Resume</a>
+            </li>
+          )}
+          {viewService && (
+            <li>
+             <a href="#service">Service</a>
             </li>
           )}
           <li>
