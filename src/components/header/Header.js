@@ -11,7 +11,8 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  resumeSection
+  resumeSection,
+  serviceSection
 } from "../../portfolio";
 
 function Header() {
