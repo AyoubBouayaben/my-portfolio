@@ -21,8 +21,8 @@ import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 import Contact from "./Contact";
-import Service from "./Service";
-import { contactInfo } from "../portfolio";
+import Service from "./Service";+
+{/* import { contactInfo } from "../portfolio"; */}
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
