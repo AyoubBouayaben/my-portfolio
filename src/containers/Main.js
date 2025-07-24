@@ -69,7 +69,7 @@ const Main = () => {
             <Profile />
             <Service/>
             {contactInfo.display && <Contact />}
-            {/*<Contact />*/}
+            {/* <Contact /> */}
             <Footer />
             <ScrollToTopButton />
           </>
