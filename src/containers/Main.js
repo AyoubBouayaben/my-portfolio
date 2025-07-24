@@ -59,6 +59,7 @@ const Main = () => {
           <>
             <Header />
             <Greeting />
+            <Service/>
             <Skills />
             <StackProgress />
             <Education />
@@ -71,7 +72,6 @@ const Main = () => {
             <Twitter />
             <Podcast />
             <Profile />
-            <Service/>
             <Contact /> 
             <Footer />
             <ScrollToTopButton />
