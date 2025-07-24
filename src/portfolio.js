@@ -368,6 +368,16 @@ const resumeSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+const serviceSection = {
+  display: true
+};
+
+export {
+  // ... other exports ...
+  serviceSection
+};
+
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
