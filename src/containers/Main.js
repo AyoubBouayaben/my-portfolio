@@ -68,8 +68,8 @@ const Main = () => {
             <Podcast />
             <Profile />
             <Service/>
-            {contactInfo.display && <Contact />}
-            {/* <Contact /> */}
+            {/*contactInfo.display && <Contact />*/}
+            <Contact /> 
             <Footer />
             <ScrollToTopButton />
           </>
