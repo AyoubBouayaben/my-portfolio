@@ -22,7 +22,7 @@ import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 import Contact from "./Contact";
 import Service from "./Service";+
-{/* import { contactInfo } from "../portfolio"; */}
+
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -68,7 +68,6 @@ const Main = () => {
             <Podcast />
             <Profile />
             <Service/>
-            {/*contactInfo.display && <Contact />*/}
             <Contact /> 
             <Footer />
             <ScrollToTopButton />
