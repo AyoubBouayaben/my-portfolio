@@ -6,7 +6,7 @@ const Service = () => {
     <div className="main service-section" id="service">
       <h1 className="service-title">Services</h1>
       <p className="service-subtitle">
-        I provide machine learning-based prediction services for airlines and aviation partners.
+        Machine learning-based prediction services for airlines and aviation partners.
       </p>
 
       <ul className="service-list">
