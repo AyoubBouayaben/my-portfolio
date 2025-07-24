@@ -8,14 +8,6 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 
-const contactInfo = {
-  title: "Contact Me",
-  subtitle: "If you’d like to test the flight delay prediction API or ask about my services, feel free to reach out.",
-  email_address: "ayoub.bouayaben@gmail.com",
-  formLink: "https://formspree.io/f/mpwlpbda",
-  display: true
-};
-
 
 
 const splashScreen = {
