@@ -1,69 +1,86 @@
-import React, {useContext} from "react";
-import "./Contact.scss";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {illustration, contactInfo} from "../../portfolio";
-import {Fade} from "react-reveal";
-import email from "../../assets/lottie/email";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import StyleContext from "../../contexts/StyleContext";
+import React from "react";
 
 export default function Contact() {
-  const {isDark} = useContext(StyleContext);
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main contact-margin-top" id="contact">
-        <div className="contact-div-main">
-          <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}</h1>
-            <p
-              className={
-                isDark
-                  ? "dark-mode contact-subtitle"
-                  : "subTitle contact-subtitle"
-              }
-            >
-              {contactInfo.subtitle}
-            </p>
-            <div
-              className={
-                isDark ? "dark-mode contact-text-div" : "contact-text-div"
-              }
-            >
-              {contactInfo.number && (
-                <>
-                  <a
-                    className="contact-detail"
-                    href={"tel:" + contactInfo.number}
-                  >
-                    {contactInfo.number}
-                  </a>
-                  <br />
-                  <br />
-                </>
-              )}
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                {contactInfo.email_address}
-              </a>
-              <br />
-              <br />
-              <SocialMedia />
-            </div>
-          </div>
-          <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
-          </div>
-        </div>
-      </div>
-    </Fade>
+    <div style={{ padding: "2rem", fontFamily: "Segoe UI, sans-serif", color: "#fff" }}>
+      <h1>Contact Me</h1>
+      <p style={{ maxWidth: "600px" }}>
+        If you’d like to test the flight delay prediction API or ask about my services, feel free to reach out.
+      </p>
+
+      <form
+        action="https://formspree.io/f/mpwlpbda"
+        method="POST"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "500px",
+          gap: "1rem",
+        }}
+      >
+        <label>
+          Your Name:
+          <input
+            type="text"
+            name="name"
+            required
+            style={{
+              width: "100%",
+              padding: "0.6rem",
+              fontSize: "2rem",
+              borderRadius: "5px",
+              border: "1px solid #ccc",
+            }}
+          />
+        </label>
+
+        <label>
+          Your Email:
+          <input
+            type="email"
+            name="_replyto"
+            required
+            style={{
+              width: "100%",
+              padding: "0.6rem",
+              fontSize: "2rem",
+              borderRadius: "5px",
+              border: "1px solid #ccc",
+            }}
+          />
+        </label>
+
+        <label>
+          Your Message:
+          <textarea
+            name="message"
+            rows="5"
+            required
+            style={{
+              width: "100%",
+              padding: "0.6rem",
+              fontSize: "1.5rem",
+              borderRadius: "5px",
+              border: "1px solid #ccc",
+            }}
+          />
+        </label>
+
+        <button
+          type="submit"
+          style={{
+            padding: "0.7rem 1.5rem",
+            backgroundColor: "#007BFF",
+            color: "white",
+            border: "none",
+            fontSize: "1rem",
+            borderRadius: "5px",
+            cursor: "pointer",
+          }}
+        >
+          Send
+        </button>
+      </form>
+    </div>
   );
 }
