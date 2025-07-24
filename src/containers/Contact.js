@@ -59,7 +59,7 @@ export default function Contact() {
             style={{
               width: "100%",
               padding: "0.6rem",
-              fontSize: "2rem",
+              fontSize: "1.5rem",
               borderRadius: "5px",
               border: "1px solid #ccc",
             }}
