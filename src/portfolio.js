@@ -26,7 +26,7 @@ const illustration = {
 const greeting = {
   username: "Ayoub",
   title: "Ayoub Bouayaben",
-  subTitle: "Research associate specialized in flight delay prediction using machine learning, offer predictive services for airlines and aviation companies.",
+  subTitle: "Research associate specialized in flight delay prediction using machine learning, offer predictive and interpretation services for airlines and aviation companies.",
   
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
