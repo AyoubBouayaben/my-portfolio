@@ -398,8 +398,18 @@ const twitterDetails = {
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
+const contactInfo = {
+  title: "Contact Me",
+  subtitle: "If you’d like to test the flight delay prediction API or ask about my services, feel free to reach out.",
+  number: "",  // optional: you can include a phone number if you want
+  email_address: "ayoub.bouayaben@gmail.com",
+  formLink: "https://formspree.io/f/mpwlpbda",  // your Formspree link
+  display: true
+};
+
+
 export {
-  contactInfo,
+  
   illustration,
   greeting,
   socialMediaLinks,
@@ -416,5 +426,6 @@ export {
   podcastSection,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  contactInfo
 };
