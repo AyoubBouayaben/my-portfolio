@@ -20,7 +20,8 @@ import { splashScreen } from "../portfolio";
 import { StyleProvider } from "../contexts/StyleContext";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import "./Main.scss";
-import Contact from "./Contact";
+import Contact from "./contact/Contact";
+
 
 import Service from "./Service";
 
