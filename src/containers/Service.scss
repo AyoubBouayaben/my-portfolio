@@ -1,0 +1,29 @@
+.service-section {
+  padding: 40px;
+  text-align: center;
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+.service-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.service-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.service-list {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: left;
+    max-width: 600px;
+    margin: 10px auto;
+  }
+}
