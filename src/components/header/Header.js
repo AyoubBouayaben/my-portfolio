@@ -19,12 +19,13 @@ function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
+  const viewService = serviceSection.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
-  const viewService = serviceSection.display;
+
 
   return (
     <Headroom>
@@ -43,6 +44,11 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          {viewService && (
+            <li>
+             <a href="#service">Service</a>
+            </li>
+          )}
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
@@ -76,11 +82,6 @@ function Header() {
           {viewResume && (
             <li>
               <a href="#resume">Resume</a>
-            </li>
-          )}
-          {viewService && (
-            <li>
-             <a href="#service">Service</a>
             </li>
           )}
           <li>
